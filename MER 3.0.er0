@@ -1,0 +1,1397 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <cont_entidade>11</cont_entidade>
+    <cont_relacionamento>12</cont_relacionamento>
+    <cont_atributo>35</cont_atributo>
+    <graph>&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id="0"/&gt;&lt;mxCell id="1" parent="0"/&gt;&lt;mxCell id="2" parent="1" style="fillColor=white;shape=rectangle;" value="Pessoa" vertex="1"&gt;&lt;mxGeometry as="geometry" height="50.0" width="100.0" x="240.0" y="170.0"/&gt;&lt;/mxCell&gt;&lt;mxCell id="4" parent="1" style="fillColor=white;shape=rectangle;" value="Disciplina&amp;#10;" vertex="1"&gt;&lt;mxGeometry as="geometry" height="50.0" width="100.0" x="740.0" y="340.0"/&gt;&lt;/mxCell&gt;&lt;mxCell id="5" parent="1" style="fillColor=white;shape=rectangle;" value="DIsciplinaOfertada" vertex="1"&gt;&lt;mxGeometry as="geometry" height="50.0" width="110.0" x="740.0" y="620.0"/&gt;&lt;/mxCell&gt;&lt;mxCell id="6" parent="1" style="fillColor=white;shape=rectangle;" value="Curso&amp;#10;" vertex="1"&gt;&lt;mxGeometry as="geometry" height="50.0" width="100.0" x="450.0" y="550.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="8" parent="1" style="startArrow=none;endArrow=none;" target="2"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="9" parent="1" style="fillColor=white;shape=ellipse;fontStyle=4" value="matricula" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="270.0" y="110.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="10" parent="1" source="9" style="startArrow=none;endArrow=none;" target="2"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="11" parent="1" style="fillColor=white;shape=ellipse;" value="nome&amp;#10;" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="380.0" y="90.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="12" parent="1" source="11" style="startArrow=none;endArrow=none;" target="2"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="13" parent="1" style="fillColor=white;shape=ellipse;" value="cpf" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="380.0" y="130.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="14" parent="1" source="13" style="startArrow=none;endArrow=none;" target="2"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="15" parent="1" style="fillColor=white;shape=ellipse;" value="dataNasc" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="390.0" y="160.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="16" parent="1" source="15" style="startArrow=none;endArrow=none;" target="2"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="18" parent="1" style="startArrow=none;endArrow=none;" target="2"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="19" parent="1" style="fillColor=white;shape=ellipse;" value="endereço" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="130.0" y="130.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="20" parent="1" source="19" style="startArrow=none;endArrow=none;" target="2"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="21" parent="1" style="fillColor=white;shape=ellipse;rounded=true;" value="logradouro" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="170.0" y="80.0"/&gt;&lt;/mxCell&gt;&lt;mxCell id="22" parent="1" style="fillColor=white;shape=ellipse;rounded=true;" value="numero&amp;#10;" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="110.0" y="50.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="23" parent="1" source="21" style="startArrow=none;endArrow=none;" target="19"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="24" parent="1" source="22" style="startArrow=none;endArrow=none;" target="19"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="25" parent="1" style="fillColor=white;shape=ellipse;" value="cep&amp;#10;" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="40.0" y="80.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="26" parent="1" source="25" style="startArrow=none;endArrow=none;" target="19"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="27" parent="1" style="fillColor=white;shape=doubleEllipse;" value="telefone" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="80.0" y="200.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="28" parent="1" source="27" style="startArrow=none;endArrow=none;" target="2"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="29" parent="1" style="fillColor=white;shape=ellipse;" value="bairro" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="10.0" y="120.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="30" parent="1" source="29" style="startArrow=none;endArrow=none;" target="19"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="31" parent="1" style="fillColor=white;shape=ellipse;" value="complemento" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="30.0" y="160.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="32" parent="1" source="31" style="startArrow=none;endArrow=none;" target="19"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="34" parent="1" style="fillColor=white;shape=rectangle;" value="Aluno" vertex="1"&gt;&lt;mxGeometry as="geometry" height="50.0" width="100.0" x="180.0" y="340.0"/&gt;&lt;/mxCell&gt;&lt;mxCell id="35" parent="1" style="fillColor=white;shape=ellipse;" value="d" vertex="1"&gt;&lt;mxGeometry as="geometry" height="20.0" width="20.0" x="280.0" y="270.0"/&gt;&lt;/mxCell&gt;&lt;mxCell id="36" parent="1" style="fillColor=white;shape=rectangle;" value="Professor" vertex="1"&gt;&lt;mxGeometry as="geometry" height="50.0" width="100.0" x="365.0" y="340.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="37" parent="1" source="36" style="fontColor=#6482B9;strokeColor=#6482B9;startArrow=none;fontSize=25;endArrow=none;strokeWidth=2;" target="35" value="U"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="38" parent="1" source="35" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;" target="2" value=""&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="39" parent="1" source="34" style="fontColor=#6482B9;strokeColor=#6482B9;startArrow=none;fontSize=25;endArrow=none;strokeWidth=2;" target="35" value="U"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="40" parent="1" style="fillColor=white;shape=ellipse;" value="e-mail" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="100.0" y="240.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="41" parent="1" source="40" style="startArrow=none;endArrow=none;" target="2"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="42" parent="1" style="fillColor=white;shape=ellipse;" value="nome" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="880.0" y="630.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="43" parent="1" source="42" style="startArrow=none;endArrow=none;" target="5"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="44" parent="1" style="fillColor=white;shape=ellipse;fontStyle=4" value="codigo&amp;#10;" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="810.0" y="570.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="45" parent="1" source="44" style="startArrow=none;endArrow=none;" target="5"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="46" parent="1" style="fillColor=white;shape=ellipse;" value="nome&amp;#10;" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="760.0" y="290.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="47" parent="1" source="46" style="startArrow=none;endArrow=none;" target="4"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="48" parent="1" style="fillColor=white;shape=ellipse;fontStyle=4" value="codigo_disciplina" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="850.0" y="310.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="49" parent="1" source="48" style="startArrow=none;endArrow=none;" target="4"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="50" parent="1" style="fillColor=white;shape=ellipse;" value="cargaHoraria" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="860.0" y="350.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="51" parent="1" source="50" style="startArrow=none;endArrow=none;" target="4"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="52" parent="1" style="fillColor=white;shape=ellipse;" value="descricao" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="860.0" y="380.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="53" parent="1" source="52" style="startArrow=none;endArrow=none;" target="4"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="54" parent="1" style="fillColor=white;shape=doubleEllipse;" value="codigo" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="310.0" y="520.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="55" parent="1" source="54" style="startArrow=none;endArrow=none;" target="6"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="56" parent="1" style="fillColor=white;shape=ellipse;" value="nome" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="320.0" y="490.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="57" parent="1" source="56" style="startArrow=none;endArrow=none;" target="6"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="58" parent="1" style="fillColor=white;shape=rhombus;" value="pertence a&amp;#10;" vertex="1"&gt;&lt;mxGeometry as="geometry" height="50.0" width="100.0" x="220.0" y="560.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="59" parent="1" source="34" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;dashed=1;" target="58" value="N"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="60" parent="1" source="6" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;dashed=1;" target="58" value="1"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="61" parent="1" style="fillColor=white;shape=rhombus;" value="pertence a" vertex="1"&gt;&lt;mxGeometry as="geometry" height="50.0" width="100.0" x="390.0" y="430.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="62" parent="1" source="36" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;dashed=1;" target="61" value="N"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="63" parent="1" source="6" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;dashed=1;" target="61" value="M"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="65" parent="1" source="6" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;dashed=1;" value="N"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="66" parent="1" source="5" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;dashed=1;" value="M"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="68" parent="1" source="34" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;dashed=1;" value="N"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="69" parent="1" source="5" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;dashed=1;" value="M"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="70" parent="1" style="fillColor=white;shape=rhombus;" value="leciona" vertex="1"&gt;&lt;mxGeometry as="geometry" height="50.0" width="100.0" x="560.0" y="340.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="71" parent="1" source="36" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;dashed=1;" target="70" value="N"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="72" parent="1" source="4" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;dashed=1;" target="70" value="M"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="73" parent="1" style="fillColor=white;shape=rhombus;" value="associa-se a" vertex="1"&gt;&lt;mxGeometry as="geometry" height="50.0" width="100.0" x="740.0" y="470.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="74" parent="1" source="5" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;dashed=1;" target="73" value="N&amp;#10;"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="75" parent="1" source="4" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;dashed=1;" target="73" value="1&amp;#10;"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="77" parent="1" source="34" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;dashed=1;" value="N"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="78" parent="1" source="4" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;dashed=1;" value="M"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="79" parent="1" style="fillColor=white;shape=rhombus;" value="responsável&amp;#10;" vertex="1"&gt;&lt;mxGeometry as="geometry" height="50.0" width="100.0" x="580.0" y="460.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="80" parent="1" source="36" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;dashed=1;" target="79" value="N"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="81" parent="1" source="5" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;dashed=1;" target="79" value="M"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="82" parent="1" style="fillColor=white;shape=ellipse;" value="dataInicio&amp;#10;" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="570.0" y="420.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="83" parent="1" source="82" style="startArrow=none;endArrow=none;" target="79"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="84" parent="1" style="fillColor=white;shape=ellipse;" value="dataFim&amp;#10;" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="670.0" y="440.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="85" parent="1" source="84" style="startArrow=none;endArrow=none;" target="79"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="86" parent="1" style="fillColor=white;shape=ellipse;" value="ano&amp;#10;" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="900.0" y="570.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="87" parent="1" source="86" style="startArrow=none;endArrow=none;" target="5"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="88" parent="1" style="fillColor=white;shape=ellipse;" value="semestre&amp;#10;" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="900.0" y="600.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="89" parent="1" source="88" style="startArrow=none;endArrow=none;" target="5"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="90" parent="1" style="fillColor=white;shape=doubleEllipse;" value="horario" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="870.0" y="660.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="91" parent="1" source="90" style="startArrow=none;endArrow=none;" target="5"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="95" parent="1" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;dashed=1;" value="N"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="96" parent="1" source="5" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;dashed=1;" value="1"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="98" parent="1" source="34" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;dashed=1;" value="N"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="99" parent="1" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;dashed=1;" value="M"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="101" parent="1" style="startArrow=none;endArrow=none;"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="103" parent="1" style="startArrow=none;endArrow=none;"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="105" parent="1" style="startArrow=none;endArrow=none;"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="108" parent="1" style="startArrow=none;endArrow=none;"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="109" parent="1" style="fillColor=white;shape=rhombus;" value="frequenta " vertex="1"&gt;&lt;mxGeometry as="geometry" height="50.0" width="100.0" x="120.0" y="610.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="110" parent="1" source="34" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;dashed=1;" target="109" value="N"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="111" parent="1" source="5" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;dashed=1;" target="109" value="M"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="113" parent="1" style="startArrow=none;endArrow=none;" target="109"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="114" parent="1" style="fillColor=white;shape=ellipse;" value="horarioInicio" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="10.0" y="640.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="115" parent="1" source="114" style="startArrow=none;endArrow=none;" target="109"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="116" parent="1" style="fillColor=white;shape=ellipse;" value="horarioFim" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="60.0" y="680.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="117" parent="1" source="116" style="startArrow=none;endArrow=none;" target="109"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="118" parent="1" style="fillColor=white;shape=ellipse;" value="data" vertex="1"&gt;&lt;mxGeometry as="geometry" height="25.0" width="100.0" x="50.0" y="580.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="119" parent="1" source="118" style="startArrow=none;endArrow=none;" target="109"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell id="120" parent="1" style="fillColor=white;shape=rhombus;" value="cadastrada em" vertex="1"&gt;&lt;mxGeometry as="geometry" height="50.0" width="100.0" x="450.0" y="280.0"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="121" parent="1" source="6" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;dashed=1;" target="120" value="1"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;mxCell edge="1" id="122" parent="1" source="4" style="startArrow=none;endArrow=none;fontSize=15;fontStyle=1;dashed=1;" target="120" value="M"&gt;&lt;mxGeometry as="geometry" relative="1"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;</graph>
+    <mapaGraficoEntidades>
+        <entry>
+            <key>2</key>
+            <value>
+                <atributos uuid="7">
+                    <id>7</id>
+                    <nome>Atributo1</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>SIMPLES</tipoAtributo>
+                    <pX>190.0</pX>
+                    <pY>120.0</pY>
+                </atributos>
+                <atributos uuid="9">
+                    <id>9</id>
+                    <nome>Atributo2</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>CHAVE</tipoAtributo>
+                    <pX>190.0</pX>
+                    <pY>120.0</pY>
+                </atributos>
+                <atributos uuid="11">
+                    <id>11</id>
+                    <nome>Atributo3</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>SIMPLES</tipoAtributo>
+                    <pX>190.0</pX>
+                    <pY>120.0</pY>
+                </atributos>
+                <atributos uuid="13">
+                    <id>13</id>
+                    <nome>Atributo4</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>SIMPLES</tipoAtributo>
+                    <pX>190.0</pX>
+                    <pY>120.0</pY>
+                </atributos>
+                <atributos uuid="15">
+                    <id>15</id>
+                    <nome>Atributo5</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>SIMPLES</tipoAtributo>
+                    <pX>190.0</pX>
+                    <pY>120.0</pY>
+                </atributos>
+                <atributos uuid="17">
+                    <id>17</id>
+                    <nome>Atributo6</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>SIMPLES</tipoAtributo>
+                    <pX>190.0</pX>
+                    <pY>120.0</pY>
+                </atributos>
+                <atributos uuid="19">
+                    <atributos>
+                        <nome>Atributo88</nome>
+                        <tamanhoAltura>25</tamanhoAltura>
+                        <tamanhoLargura>100</tamanhoLargura>
+                        <tipoAtributo>SIMPLES</tipoAtributo>
+                        <pX>190.0</pX>
+                        <pY>120.0</pY>
+                    </atributos>
+                    <atributos>
+                        <nome>Atributo99</nome>
+                        <tamanhoAltura>25</tamanhoAltura>
+                        <tamanhoLargura>100</tamanhoLargura>
+                        <tipoAtributo>SIMPLES</tipoAtributo>
+                        <pX>190.0</pX>
+                        <pY>120.0</pY>
+                    </atributos>
+                    <id>19</id>
+                    <nome>Atributo7</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>COMPOSTO</tipoAtributo>
+                    <pX>190.0</pX>
+                    <pY>120.0</pY>
+                </atributos>
+                <atributos uuid="27">
+                    <id>27</id>
+                    <nome>Atributo11</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>MULTIVALORADO</tipoAtributo>
+                    <pX>190.0</pX>
+                    <pY>120.0</pY>
+                </atributos>
+                <atributos uuid="40">
+                    <id>40</id>
+                    <nome>Atributo14</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>SIMPLES</tipoAtributo>
+                    <pX>240.0</pX>
+                    <pY>170.0</pY>
+                </atributos>
+                <id>2</id>
+                <nome>Entidade1</nome>
+                <tamanhoAltura>50</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipo>FORTE</tipo>
+                <pX>215.0</pX>
+                <pY>177.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>34</key>
+            <value>
+                <id>34</id>
+                <nome>Entidade7</nome>
+                <tamanhoAltura>50</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipo>FORTE</tipo>
+                <pX>115.0</pX>
+                <pY>340.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>4</key>
+            <value>
+                <atributos uuid="46">
+                    <id>46</id>
+                    <nome>Atributo17</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>SIMPLES</tipoAtributo>
+                    <pX>740.0</pX>
+                    <pY>360.0</pY>
+                </atributos>
+                <atributos uuid="48">
+                    <id>48</id>
+                    <nome>Atributo18</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>CHAVE</tipoAtributo>
+                    <pX>740.0</pX>
+                    <pY>360.0</pY>
+                </atributos>
+                <atributos uuid="50">
+                    <id>50</id>
+                    <nome>Atributo19</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>SIMPLES</tipoAtributo>
+                    <pX>740.0</pX>
+                    <pY>360.0</pY>
+                </atributos>
+                <atributos uuid="52">
+                    <id>52</id>
+                    <nome>Atributo20</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>SIMPLES</tipoAtributo>
+                    <pX>740.0</pX>
+                    <pY>360.0</pY>
+                </atributos>
+                <id>4</id>
+                <nome>Entidade3</nome>
+                <tamanhoAltura>50</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipo>FORTE</tipo>
+                <pX>291.0</pX>
+                <pY>327.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>36</key>
+            <value>
+                <id>36</id>
+                <nome>Entidade8</nome>
+                <tamanhoAltura>50</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipo>FORTE</tipo>
+                <pX>365.0</pX>
+                <pY>340.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>5</key>
+            <value>
+                <atributos uuid="42">
+                    <id>42</id>
+                    <nome>Atributo15</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>SIMPLES</tipoAtributo>
+                    <pX>580.0</pX>
+                    <pY>510.0</pY>
+                </atributos>
+                <atributos uuid="44">
+                    <id>44</id>
+                    <nome>Atributo16</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>CHAVE</tipoAtributo>
+                    <pX>580.0</pX>
+                    <pY>510.0</pY>
+                </atributos>
+                <atributos uuid="86">
+                    <id>86</id>
+                    <nome>Atributo25</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>SIMPLES</tipoAtributo>
+                    <pX>780.0</pX>
+                    <pY>620.0</pY>
+                </atributos>
+                <atributos uuid="88">
+                    <id>88</id>
+                    <nome>Atributo26</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>SIMPLES</tipoAtributo>
+                    <pX>780.0</pX>
+                    <pY>620.0</pY>
+                </atributos>
+                <atributos uuid="90">
+                    <id>90</id>
+                    <nome>Atributo27</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>MULTIVALORADO</tipoAtributo>
+                    <pX>780.0</pX>
+                    <pY>620.0</pY>
+                </atributos>
+                <id>5</id>
+                <nome>Entidade4</nome>
+                <tamanhoAltura>50</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipo>FORTE</tipo>
+                <pX>493.0</pX>
+                <pY>177.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>6</key>
+            <value>
+                <atributos uuid="54">
+                    <id>54</id>
+                    <nome>Atributo21</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>MULTIVALORADO</tipoAtributo>
+                    <pX>150.0</pX>
+                    <pY>570.0</pY>
+                </atributos>
+                <atributos uuid="56">
+                    <id>56</id>
+                    <nome>Atributo22</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>SIMPLES</tipoAtributo>
+                    <pX>150.0</pX>
+                    <pY>570.0</pY>
+                </atributos>
+                <id>6</id>
+                <nome>Entidade5</nome>
+                <tamanhoAltura>50</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipo>FORTE</tipo>
+                <pX>557.0</pX>
+                <pY>341.0</pY>
+            </value>
+        </entry>
+    </mapaGraficoEntidades>
+    <mapaGraficoAtributos>
+        <entry>
+            <key>9</key>
+            <value uuid="9">
+                <id>9</id>
+                <nome>Atributo2</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>CHAVE</tipoAtributo>
+                <pX>190.0</pX>
+                <pY>120.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>11</key>
+            <value uuid="11">
+                <id>11</id>
+                <nome>Atributo3</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>SIMPLES</tipoAtributo>
+                <pX>190.0</pX>
+                <pY>120.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>13</key>
+            <value uuid="13">
+                <id>13</id>
+                <nome>Atributo4</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>SIMPLES</tipoAtributo>
+                <pX>190.0</pX>
+                <pY>120.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>15</key>
+            <value uuid="15">
+                <id>15</id>
+                <nome>Atributo5</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>SIMPLES</tipoAtributo>
+                <pX>190.0</pX>
+                <pY>120.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>82</key>
+            <value uuid="82">
+                <id>82</id>
+                <nome>Atributo23</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>SIMPLES</tipoAtributo>
+                <pX>600.0</pX>
+                <pY>450.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>19</key>
+            <value uuid="19">
+                <atributos>
+                    <nome>Atributo88</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>SIMPLES</tipoAtributo>
+                    <pX>190.0</pX>
+                    <pY>120.0</pY>
+                </atributos>
+                <atributos>
+                    <nome>Atributo99</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>SIMPLES</tipoAtributo>
+                    <pX>190.0</pX>
+                    <pY>120.0</pY>
+                </atributos>
+                <id>19</id>
+                <nome>Atributo7</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>COMPOSTO</tipoAtributo>
+                <pX>190.0</pX>
+                <pY>120.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>84</key>
+            <value uuid="84">
+                <id>84</id>
+                <nome>Atributo24</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>SIMPLES</tipoAtributo>
+                <pX>600.0</pX>
+                <pY>450.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>21</key>
+            <value>
+                <nome>Atributo88</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>SIMPLES</tipoAtributo>
+                <pX>190.0</pX>
+                <pY>120.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>22</key>
+            <value>
+                <nome>Atributo99</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>SIMPLES</tipoAtributo>
+                <pX>190.0</pX>
+                <pY>120.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>86</key>
+            <value uuid="86">
+                <id>86</id>
+                <nome>Atributo25</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>SIMPLES</tipoAtributo>
+                <pX>780.0</pX>
+                <pY>620.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>88</key>
+            <value uuid="88">
+                <id>88</id>
+                <nome>Atributo26</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>SIMPLES</tipoAtributo>
+                <pX>780.0</pX>
+                <pY>620.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>25</key>
+            <value uuid="25">
+                <id>25</id>
+                <nome>Atributo10</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>SIMPLES</tipoAtributo>
+                <pX>70.0</pX>
+                <pY>100.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>90</key>
+            <value uuid="90">
+                <id>90</id>
+                <nome>Atributo27</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>MULTIVALORADO</tipoAtributo>
+                <pX>780.0</pX>
+                <pY>620.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>27</key>
+            <value uuid="27">
+                <id>27</id>
+                <nome>Atributo11</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>MULTIVALORADO</tipoAtributo>
+                <pX>190.0</pX>
+                <pY>120.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>29</key>
+            <value uuid="29">
+                <id>29</id>
+                <nome>Atributo12</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>SIMPLES</tipoAtributo>
+                <pX>130.0</pX>
+                <pY>130.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>31</key>
+            <value uuid="31">
+                <id>31</id>
+                <nome>Atributo13</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>SIMPLES</tipoAtributo>
+                <pX>130.0</pX>
+                <pY>130.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>40</key>
+            <value uuid="40">
+                <id>40</id>
+                <nome>Atributo14</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>SIMPLES</tipoAtributo>
+                <pX>240.0</pX>
+                <pY>170.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>42</key>
+            <value uuid="42">
+                <id>42</id>
+                <nome>Atributo15</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>SIMPLES</tipoAtributo>
+                <pX>580.0</pX>
+                <pY>510.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>44</key>
+            <value uuid="44">
+                <id>44</id>
+                <nome>Atributo16</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>CHAVE</tipoAtributo>
+                <pX>580.0</pX>
+                <pY>510.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>46</key>
+            <value uuid="46">
+                <id>46</id>
+                <nome>Atributo17</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>SIMPLES</tipoAtributo>
+                <pX>740.0</pX>
+                <pY>360.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>48</key>
+            <value uuid="48">
+                <id>48</id>
+                <nome>Atributo18</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>CHAVE</tipoAtributo>
+                <pX>740.0</pX>
+                <pY>360.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>50</key>
+            <value uuid="50">
+                <id>50</id>
+                <nome>Atributo19</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>SIMPLES</tipoAtributo>
+                <pX>740.0</pX>
+                <pY>360.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>114</key>
+            <value uuid="114">
+                <id>114</id>
+                <nome>Atributo33</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>SIMPLES</tipoAtributo>
+                <pX>40.0</pX>
+                <pY>680.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>52</key>
+            <value uuid="52">
+                <id>52</id>
+                <nome>Atributo20</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>SIMPLES</tipoAtributo>
+                <pX>740.0</pX>
+                <pY>360.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>116</key>
+            <value uuid="116">
+                <id>116</id>
+                <nome>Atributo34</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>SIMPLES</tipoAtributo>
+                <pX>40.0</pX>
+                <pY>680.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>54</key>
+            <value uuid="54">
+                <id>54</id>
+                <nome>Atributo21</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>MULTIVALORADO</tipoAtributo>
+                <pX>150.0</pX>
+                <pY>570.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>118</key>
+            <value uuid="118">
+                <id>118</id>
+                <nome>Atributo35</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>SIMPLES</tipoAtributo>
+                <pX>40.0</pX>
+                <pY>680.0</pY>
+            </value>
+        </entry>
+        <entry>
+            <key>56</key>
+            <value uuid="56">
+                <id>56</id>
+                <nome>Atributo22</nome>
+                <tamanhoAltura>25</tamanhoAltura>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tipoAtributo>SIMPLES</tipoAtributo>
+                <pX>150.0</pX>
+                <pY>570.0</pY>
+            </value>
+        </entry>
+    </mapaGraficoAtributos>
+    <mapaGraficoRelacionamentos>
+        <entry>
+            <key>120</key>
+            <value>
+                <id>120</id>
+                <nome>Relacionamento12</nome>
+                <entidades>
+                    <entry>
+                        <key>
+                            <atributos uuid="46">
+<id>46</id>
+<nome>Atributo17</nome>
+<tamanhoAltura>25</tamanhoAltura>
+<tamanhoLargura>100</tamanhoLargura>
+<tipoAtributo>SIMPLES</tipoAtributo>
+<pX>740.0</pX>
+<pY>360.0</pY>
+                            </atributos>
+                            <atributos uuid="48">
+<id>48</id>
+<nome>Atributo18</nome>
+<tamanhoAltura>25</tamanhoAltura>
+<tamanhoLargura>100</tamanhoLargura>
+<tipoAtributo>CHAVE</tipoAtributo>
+<pX>740.0</pX>
+<pY>360.0</pY>
+                            </atributos>
+                            <atributos uuid="50">
+<id>50</id>
+<nome>Atributo19</nome>
+<tamanhoAltura>25</tamanhoAltura>
+<tamanhoLargura>100</tamanhoLargura>
+<tipoAtributo>SIMPLES</tipoAtributo>
+<pX>740.0</pX>
+<pY>360.0</pY>
+                            </atributos>
+                            <atributos uuid="52">
+<id>52</id>
+<nome>Atributo20</nome>
+<tamanhoAltura>25</tamanhoAltura>
+<tamanhoLargura>100</tamanhoLargura>
+<tipoAtributo>SIMPLES</tipoAtributo>
+<pX>740.0</pX>
+<pY>360.0</pY>
+                            </atributos>
+                            <id>4</id>
+                            <nome>Entidade3</nome>
+                            <tamanhoAltura>50</tamanhoAltura>
+                            <tamanhoLargura>100</tamanhoLargura>
+                            <tipo>FORTE</tipo>
+                            <pX>291.0</pX>
+                            <pY>327.0</pY>
+                        </key>
+                        <value>
+                            <cardinalidade>N</cardinalidade>
+                            <obrigatoriedade>PARCIAL</obrigatoriedade>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>
+                            <atributos uuid="54">
+<id>54</id>
+<nome>Atributo21</nome>
+<tamanhoAltura>25</tamanhoAltura>
+<tamanhoLargura>100</tamanhoLargura>
+<tipoAtributo>MULTIVALORADO</tipoAtributo>
+<pX>150.0</pX>
+<pY>570.0</pY>
+                            </atributos>
+                            <atributos uuid="56">
+<id>56</id>
+<nome>Atributo22</nome>
+<tamanhoAltura>25</tamanhoAltura>
+<tamanhoLargura>100</tamanhoLargura>
+<tipoAtributo>SIMPLES</tipoAtributo>
+<pX>150.0</pX>
+<pY>570.0</pY>
+                            </atributos>
+                            <id>6</id>
+                            <nome>Entidade5</nome>
+                            <tamanhoAltura>50</tamanhoAltura>
+                            <tamanhoLargura>100</tamanhoLargura>
+                            <tipo>FORTE</tipo>
+                            <pX>557.0</pX>
+                            <pY>341.0</pY>
+                        </key>
+                        <value>
+                            <cardinalidade>N</cardinalidade>
+                            <obrigatoriedade>PARCIAL</obrigatoriedade>
+                        </value>
+                    </entry>
+                </entidades>
+                <hasAgregacao>false</hasAgregacao>
+                <pY>661.0</pY>
+                <pX>196.0</pX>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tamanhoAltura>50</tamanhoAltura>
+            </value>
+        </entry>
+        <entry>
+            <key>73</key>
+            <value>
+                <id>73</id>
+                <nome>Relacionamento6</nome>
+                <entidades>
+                    <entry>
+                        <key>
+                            <atributos uuid="46">
+<id>46</id>
+<nome>Atributo17</nome>
+<tamanhoAltura>25</tamanhoAltura>
+<tamanhoLargura>100</tamanhoLargura>
+<tipoAtributo>SIMPLES</tipoAtributo>
+<pX>740.0</pX>
+<pY>360.0</pY>
+                            </atributos>
+                            <atributos uuid="48">
+<id>48</id>
+<nome>Atributo18</nome>
+<tamanhoAltura>25</tamanhoAltura>
+<tamanhoLargura>100</tamanhoLargura>
+<tipoAtributo>CHAVE</tipoAtributo>
+<pX>740.0</pX>
+<pY>360.0</pY>
+                            </atributos>
+                            <atributos uuid="50">
+<id>50</id>
+<nome>Atributo19</nome>
+<tamanhoAltura>25</tamanhoAltura>
+<tamanhoLargura>100</tamanhoLargura>
+<tipoAtributo>SIMPLES</tipoAtributo>
+<pX>740.0</pX>
+<pY>360.0</pY>
+                            </atributos>
+                            <atributos uuid="52">
+<id>52</id>
+<nome>Atributo20</nome>
+<tamanhoAltura>25</tamanhoAltura>
+<tamanhoLargura>100</tamanhoLargura>
+<tipoAtributo>SIMPLES</tipoAtributo>
+<pX>740.0</pX>
+<pY>360.0</pY>
+                            </atributos>
+                            <id>4</id>
+                            <nome>Entidade3</nome>
+                            <tamanhoAltura>50</tamanhoAltura>
+                            <tamanhoLargura>100</tamanhoLargura>
+                            <tipo>FORTE</tipo>
+                            <pX>291.0</pX>
+                            <pY>327.0</pY>
+                        </key>
+                        <value>
+                            <cardinalidade>N</cardinalidade>
+                            <obrigatoriedade>PARCIAL</obrigatoriedade>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>
+                            <atributos uuid="42">
+<id>42</id>
+<nome>Atributo15</nome>
+<tamanhoAltura>25</tamanhoAltura>
+<tamanhoLargura>100</tamanhoLargura>
+<tipoAtributo>SIMPLES</tipoAtributo>
+<pX>580.0</pX>
+<pY>510.0</pY>
+                            </atributos>
+                            <atributos uuid="44">
+<id>44</id>
+<nome>Atributo16</nome>
+<tamanhoAltura>25</tamanhoAltura>
+<tamanhoLargura>100</tamanhoLargura>
+<tipoAtributo>CHAVE</tipoAtributo>
+<pX>580.0</pX>
+<pY>510.0</pY>
+                            </atributos>
+                            <id>5</id>
+                            <nome>Entidade4</nome>
+                            <tamanhoAltura>50</tamanhoAltura>
+                            <tamanhoLargura>100</tamanhoLargura>
+                            <tipo>FORTE</tipo>
+                            <pX>493.0</pX>
+                            <pY>177.0</pY>
+                        </key>
+                        <value>
+                            <cardinalidade>N</cardinalidade>
+                            <obrigatoriedade>PARCIAL</obrigatoriedade>
+                        </value>
+                    </entry>
+                </entidades>
+                <hasAgregacao>false</hasAgregacao>
+                <pY>370.0</pY>
+                <pX>618.0</pX>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tamanhoAltura>50</tamanhoAltura>
+            </value>
+        </entry>
+        <entry>
+            <key>58</key>
+            <value>
+                <id>58</id>
+                <nome>Relacionamento1</nome>
+                <entidades>
+                    <entry>
+                        <key>
+                            <id>34</id>
+                            <nome>Entidade7</nome>
+                            <tamanhoAltura>50</tamanhoAltura>
+                            <tamanhoLargura>100</tamanhoLargura>
+                            <tipo>FORTE</tipo>
+                            <pX>115.0</pX>
+                            <pY>340.0</pY>
+                        </key>
+                        <value>
+                            <cardinalidade>N</cardinalidade>
+                            <obrigatoriedade>PARCIAL</obrigatoriedade>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>
+                            <atributos uuid="54">
+<id>54</id>
+<nome>Atributo21</nome>
+<tamanhoAltura>25</tamanhoAltura>
+<tamanhoLargura>100</tamanhoLargura>
+<tipoAtributo>MULTIVALORADO</tipoAtributo>
+<pX>150.0</pX>
+<pY>570.0</pY>
+                            </atributos>
+                            <atributos uuid="56">
+<id>56</id>
+<nome>Atributo22</nome>
+<tamanhoAltura>25</tamanhoAltura>
+<tamanhoLargura>100</tamanhoLargura>
+<tipoAtributo>SIMPLES</tipoAtributo>
+<pX>150.0</pX>
+<pY>570.0</pY>
+                            </atributos>
+                            <id>6</id>
+                            <nome>Entidade5</nome>
+                            <tamanhoAltura>50</tamanhoAltura>
+                            <tamanhoLargura>100</tamanhoLargura>
+                            <tipo>FORTE</tipo>
+                            <pX>557.0</pX>
+                            <pY>341.0</pY>
+                        </key>
+                        <value>
+                            <cardinalidade>N</cardinalidade>
+                            <obrigatoriedade>PARCIAL</obrigatoriedade>
+                        </value>
+                    </entry>
+                </entidades>
+                <hasAgregacao>false</hasAgregacao>
+                <pY>533.0</pY>
+                <pX>350.0</pX>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tamanhoAltura>50</tamanhoAltura>
+            </value>
+        </entry>
+        <entry>
+            <key>61</key>
+            <value>
+                <id>61</id>
+                <nome>Relacionamento2</nome>
+                <entidades>
+                    <entry>
+                        <key>
+                            <atributos uuid="54">
+<id>54</id>
+<nome>Atributo21</nome>
+<tamanhoAltura>25</tamanhoAltura>
+<tamanhoLargura>100</tamanhoLargura>
+<tipoAtributo>MULTIVALORADO</tipoAtributo>
+<pX>150.0</pX>
+<pY>570.0</pY>
+                            </atributos>
+                            <atributos uuid="56">
+<id>56</id>
+<nome>Atributo22</nome>
+<tamanhoAltura>25</tamanhoAltura>
+<tamanhoLargura>100</tamanhoLargura>
+<tipoAtributo>SIMPLES</tipoAtributo>
+<pX>150.0</pX>
+<pY>570.0</pY>
+                            </atributos>
+                            <id>6</id>
+                            <nome>Entidade5</nome>
+                            <tamanhoAltura>50</tamanhoAltura>
+                            <tamanhoLargura>100</tamanhoLargura>
+                            <tipo>FORTE</tipo>
+                            <pX>557.0</pX>
+                            <pY>341.0</pY>
+                        </key>
+                        <value>
+                            <cardinalidade>N</cardinalidade>
+                            <obrigatoriedade>PARCIAL</obrigatoriedade>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>
+                            <id>36</id>
+                            <nome>Entidade8</nome>
+                            <tamanhoAltura>50</tamanhoAltura>
+                            <tamanhoLargura>100</tamanhoLargura>
+                            <tipo>FORTE</tipo>
+                            <pX>365.0</pX>
+                            <pY>340.0</pY>
+                        </key>
+                        <value>
+                            <cardinalidade>N</cardinalidade>
+                            <obrigatoriedade>PARCIAL</obrigatoriedade>
+                        </value>
+                    </entry>
+                </entidades>
+                <hasAgregacao>false</hasAgregacao>
+                <pY>450.0</pY>
+                <pX>86.0</pX>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tamanhoAltura>50</tamanhoAltura>
+            </value>
+        </entry>
+        <entry>
+            <key>109</key>
+            <value>
+                <id>109</id>
+                <nome>Relacionamento11</nome>
+                <atributos uuid="112">
+                    <id>112</id>
+                    <nome>Atributo32</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>CHAVE</tipoAtributo>
+                    <pX>40.0</pX>
+                    <pY>680.0</pY>
+                </atributos>
+                <atributos uuid="114">
+                    <id>114</id>
+                    <nome>Atributo33</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>SIMPLES</tipoAtributo>
+                    <pX>40.0</pX>
+                    <pY>680.0</pY>
+                </atributos>
+                <atributos uuid="116">
+                    <id>116</id>
+                    <nome>Atributo34</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>SIMPLES</tipoAtributo>
+                    <pX>40.0</pX>
+                    <pY>680.0</pY>
+                </atributos>
+                <atributos uuid="118">
+                    <id>118</id>
+                    <nome>Atributo35</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>SIMPLES</tipoAtributo>
+                    <pX>40.0</pX>
+                    <pY>680.0</pY>
+                </atributos>
+                <entidades>
+                    <entry>
+                        <key>
+                            <id>34</id>
+                            <nome>Entidade7</nome>
+                            <tamanhoAltura>50</tamanhoAltura>
+                            <tamanhoLargura>100</tamanhoLargura>
+                            <tipo>FORTE</tipo>
+                            <pX>115.0</pX>
+                            <pY>340.0</pY>
+                        </key>
+                        <value>
+                            <cardinalidade>N</cardinalidade>
+                            <obrigatoriedade>PARCIAL</obrigatoriedade>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>
+                            <atributos uuid="42">
+<id>42</id>
+<nome>Atributo15</nome>
+<tamanhoAltura>25</tamanhoAltura>
+<tamanhoLargura>100</tamanhoLargura>
+<tipoAtributo>SIMPLES</tipoAtributo>
+<pX>580.0</pX>
+<pY>510.0</pY>
+                            </atributos>
+                            <atributos uuid="44">
+<id>44</id>
+<nome>Atributo16</nome>
+<tamanhoAltura>25</tamanhoAltura>
+<tamanhoLargura>100</tamanhoLargura>
+<tipoAtributo>CHAVE</tipoAtributo>
+<pX>580.0</pX>
+<pY>510.0</pY>
+                            </atributos>
+                            <atributos uuid="86">
+<id>86</id>
+<nome>Atributo25</nome>
+<tamanhoAltura>25</tamanhoAltura>
+<tamanhoLargura>100</tamanhoLargura>
+<tipoAtributo>SIMPLES</tipoAtributo>
+<pX>780.0</pX>
+<pY>620.0</pY>
+                            </atributos>
+                            <atributos uuid="88">
+<id>88</id>
+<nome>Atributo26</nome>
+<tamanhoAltura>25</tamanhoAltura>
+<tamanhoLargura>100</tamanhoLargura>
+<tipoAtributo>SIMPLES</tipoAtributo>
+<pX>780.0</pX>
+<pY>620.0</pY>
+                            </atributos>
+                            <atributos uuid="90">
+<id>90</id>
+<nome>Atributo27</nome>
+<tamanhoAltura>25</tamanhoAltura>
+<tamanhoLargura>100</tamanhoLargura>
+<tipoAtributo>MULTIVALORADO</tipoAtributo>
+<pX>780.0</pX>
+<pY>620.0</pY>
+                            </atributos>
+                            <id>5</id>
+                            <nome>Entidade4</nome>
+                            <tamanhoAltura>50</tamanhoAltura>
+                            <tamanhoLargura>100</tamanhoLargura>
+                            <tipo>FORTE</tipo>
+                            <pX>493.0</pX>
+                            <pY>177.0</pY>
+                        </key>
+                        <value>
+                            <cardinalidade>N</cardinalidade>
+                            <obrigatoriedade>PARCIAL</obrigatoriedade>
+                        </value>
+                    </entry>
+                </entidades>
+                <hasAgregacao>false</hasAgregacao>
+                <pY>601.0</pY>
+                <pX>109.0</pX>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tamanhoAltura>50</tamanhoAltura>
+            </value>
+        </entry>
+        <entry>
+            <key>79</key>
+            <value>
+                <id>79</id>
+                <nome>Relacionamento8</nome>
+                <atributos uuid="82">
+                    <id>82</id>
+                    <nome>Atributo23</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>SIMPLES</tipoAtributo>
+                    <pX>600.0</pX>
+                    <pY>450.0</pY>
+                </atributos>
+                <atributos uuid="84">
+                    <id>84</id>
+                    <nome>Atributo24</nome>
+                    <tamanhoAltura>25</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipoAtributo>SIMPLES</tipoAtributo>
+                    <pX>600.0</pX>
+                    <pY>450.0</pY>
+                </atributos>
+                <entidades>
+                    <entry>
+                        <key>
+                            <id>36</id>
+                            <nome>Entidade8</nome>
+                            <tamanhoAltura>50</tamanhoAltura>
+                            <tamanhoLargura>100</tamanhoLargura>
+                            <tipo>FORTE</tipo>
+                            <pX>365.0</pX>
+                            <pY>340.0</pY>
+                        </key>
+                        <value>
+                            <cardinalidade>N</cardinalidade>
+                            <obrigatoriedade>PARCIAL</obrigatoriedade>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>
+                            <atributos uuid="42">
+<id>42</id>
+<nome>Atributo15</nome>
+<tamanhoAltura>25</tamanhoAltura>
+<tamanhoLargura>100</tamanhoLargura>
+<tipoAtributo>SIMPLES</tipoAtributo>
+<pX>580.0</pX>
+<pY>510.0</pY>
+                            </atributos>
+                            <atributos uuid="44">
+<id>44</id>
+<nome>Atributo16</nome>
+<tamanhoAltura>25</tamanhoAltura>
+<tamanhoLargura>100</tamanhoLargura>
+<tipoAtributo>CHAVE</tipoAtributo>
+<pX>580.0</pX>
+<pY>510.0</pY>
+                            </atributos>
+                            <id>5</id>
+                            <nome>Entidade4</nome>
+                            <tamanhoAltura>50</tamanhoAltura>
+                            <tamanhoLargura>100</tamanhoLargura>
+                            <tipo>FORTE</tipo>
+                            <pX>493.0</pX>
+                            <pY>177.0</pY>
+                        </key>
+                        <value>
+                            <cardinalidade>N</cardinalidade>
+                            <obrigatoriedade>PARCIAL</obrigatoriedade>
+                        </value>
+                    </entry>
+                </entidades>
+                <hasAgregacao>false</hasAgregacao>
+                <pY>238.0</pY>
+                <pX>566.0</pX>
+                <tamanhoLargura>100</tamanhoLargura>
+                <tamanhoAltura>50</tamanhoAltura>
+            </value>
+        </entry>
+    </mapaGraficoRelacionamentos>
+    <mapaGraficoEspecializacao>
+        <entry>
+            <key>35</key>
+            <value>
+                <entidadePrincipal>
+                    <atributos uuid="7">
+                        <id>7</id>
+                        <nome>Atributo1</nome>
+                        <tamanhoAltura>25</tamanhoAltura>
+                        <tamanhoLargura>100</tamanhoLargura>
+                        <tipoAtributo>SIMPLES</tipoAtributo>
+                        <pX>190.0</pX>
+                        <pY>120.0</pY>
+                    </atributos>
+                    <atributos uuid="9">
+                        <id>9</id>
+                        <nome>Atributo2</nome>
+                        <tamanhoAltura>25</tamanhoAltura>
+                        <tamanhoLargura>100</tamanhoLargura>
+                        <tipoAtributo>CHAVE</tipoAtributo>
+                        <pX>190.0</pX>
+                        <pY>120.0</pY>
+                    </atributos>
+                    <atributos uuid="11">
+                        <id>11</id>
+                        <nome>Atributo3</nome>
+                        <tamanhoAltura>25</tamanhoAltura>
+                        <tamanhoLargura>100</tamanhoLargura>
+                        <tipoAtributo>SIMPLES</tipoAtributo>
+                        <pX>190.0</pX>
+                        <pY>120.0</pY>
+                    </atributos>
+                    <atributos uuid="13">
+                        <id>13</id>
+                        <nome>Atributo4</nome>
+                        <tamanhoAltura>25</tamanhoAltura>
+                        <tamanhoLargura>100</tamanhoLargura>
+                        <tipoAtributo>SIMPLES</tipoAtributo>
+                        <pX>190.0</pX>
+                        <pY>120.0</pY>
+                    </atributos>
+                    <atributos uuid="15">
+                        <id>15</id>
+                        <nome>Atributo5</nome>
+                        <tamanhoAltura>25</tamanhoAltura>
+                        <tamanhoLargura>100</tamanhoLargura>
+                        <tipoAtributo>SIMPLES</tipoAtributo>
+                        <pX>190.0</pX>
+                        <pY>120.0</pY>
+                    </atributos>
+                    <atributos uuid="17">
+                        <id>17</id>
+                        <nome>Atributo6</nome>
+                        <tamanhoAltura>25</tamanhoAltura>
+                        <tamanhoLargura>100</tamanhoLargura>
+                        <tipoAtributo>SIMPLES</tipoAtributo>
+                        <pX>190.0</pX>
+                        <pY>120.0</pY>
+                    </atributos>
+                    <atributos uuid="19">
+                        <atributos>
+                            <nome>Atributo88</nome>
+                            <tamanhoAltura>25</tamanhoAltura>
+                            <tamanhoLargura>100</tamanhoLargura>
+                            <tipoAtributo>SIMPLES</tipoAtributo>
+                            <pX>190.0</pX>
+                            <pY>120.0</pY>
+                        </atributos>
+                        <atributos>
+                            <nome>Atributo99</nome>
+                            <tamanhoAltura>25</tamanhoAltura>
+                            <tamanhoLargura>100</tamanhoLargura>
+                            <tipoAtributo>SIMPLES</tipoAtributo>
+                            <pX>190.0</pX>
+                            <pY>120.0</pY>
+                        </atributos>
+                        <id>19</id>
+                        <nome>Atributo7</nome>
+                        <tamanhoAltura>25</tamanhoAltura>
+                        <tamanhoLargura>100</tamanhoLargura>
+                        <tipoAtributo>COMPOSTO</tipoAtributo>
+                        <pX>190.0</pX>
+                        <pY>120.0</pY>
+                    </atributos>
+                    <atributos uuid="27">
+                        <id>27</id>
+                        <nome>Atributo11</nome>
+                        <tamanhoAltura>25</tamanhoAltura>
+                        <tamanhoLargura>100</tamanhoLargura>
+                        <tipoAtributo>MULTIVALORADO</tipoAtributo>
+                        <pX>190.0</pX>
+                        <pY>120.0</pY>
+                    </atributos>
+                    <atributos uuid="40">
+                        <id>40</id>
+                        <nome>Atributo14</nome>
+                        <tamanhoAltura>25</tamanhoAltura>
+                        <tamanhoLargura>100</tamanhoLargura>
+                        <tipoAtributo>SIMPLES</tipoAtributo>
+                        <pX>240.0</pX>
+                        <pY>170.0</pY>
+                    </atributos>
+                    <id>2</id>
+                    <nome>Entidade1</nome>
+                    <tamanhoAltura>50</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipo>FORTE</tipo>
+                    <pX>215.0</pX>
+                    <pY>177.0</pY>
+                </entidadePrincipal>
+                <entidades>
+                    <id>34</id>
+                    <nome>Entidade7</nome>
+                    <tamanhoAltura>50</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipo>FORTE</tipo>
+                    <pX>115.0</pX>
+                    <pY>340.0</pY>
+                </entidades>
+                <entidades>
+                    <id>36</id>
+                    <nome>Entidade8</nome>
+                    <tamanhoAltura>50</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipo>FORTE</tipo>
+                    <pX>365.0</pX>
+                    <pY>340.0</pY>
+                </entidades>
+                <entidades>
+                    <atributos uuid="7">
+                        <id>7</id>
+                        <nome>Atributo1</nome>
+                        <tamanhoAltura>25</tamanhoAltura>
+                        <tamanhoLargura>100</tamanhoLargura>
+                        <tipoAtributo>SIMPLES</tipoAtributo>
+                        <pX>190.0</pX>
+                        <pY>120.0</pY>
+                    </atributos>
+                    <atributos uuid="9">
+                        <id>9</id>
+                        <nome>Atributo2</nome>
+                        <tamanhoAltura>25</tamanhoAltura>
+                        <tamanhoLargura>100</tamanhoLargura>
+                        <tipoAtributo>CHAVE</tipoAtributo>
+                        <pX>190.0</pX>
+                        <pY>120.0</pY>
+                    </atributos>
+                    <atributos uuid="11">
+                        <id>11</id>
+                        <nome>Atributo3</nome>
+                        <tamanhoAltura>25</tamanhoAltura>
+                        <tamanhoLargura>100</tamanhoLargura>
+                        <tipoAtributo>SIMPLES</tipoAtributo>
+                        <pX>190.0</pX>
+                        <pY>120.0</pY>
+                    </atributos>
+                    <atributos uuid="13">
+                        <id>13</id>
+                        <nome>Atributo4</nome>
+                        <tamanhoAltura>25</tamanhoAltura>
+                        <tamanhoLargura>100</tamanhoLargura>
+                        <tipoAtributo>SIMPLES</tipoAtributo>
+                        <pX>190.0</pX>
+                        <pY>120.0</pY>
+                    </atributos>
+                    <atributos uuid="15">
+                        <id>15</id>
+                        <nome>Atributo5</nome>
+                        <tamanhoAltura>25</tamanhoAltura>
+                        <tamanhoLargura>100</tamanhoLargura>
+                        <tipoAtributo>SIMPLES</tipoAtributo>
+                        <pX>190.0</pX>
+                        <pY>120.0</pY>
+                    </atributos>
+                    <atributos uuid="17">
+                        <id>17</id>
+                        <nome>Atributo6</nome>
+                        <tamanhoAltura>25</tamanhoAltura>
+                        <tamanhoLargura>100</tamanhoLargura>
+                        <tipoAtributo>SIMPLES</tipoAtributo>
+                        <pX>190.0</pX>
+                        <pY>120.0</pY>
+                    </atributos>
+                    <atributos uuid="19">
+                        <atributos>
+                            <nome>Atributo88</nome>
+                            <tamanhoAltura>25</tamanhoAltura>
+                            <tamanhoLargura>100</tamanhoLargura>
+                            <tipoAtributo>SIMPLES</tipoAtributo>
+                            <pX>190.0</pX>
+                            <pY>120.0</pY>
+                        </atributos>
+                        <atributos>
+                            <nome>Atributo99</nome>
+                            <tamanhoAltura>25</tamanhoAltura>
+                            <tamanhoLargura>100</tamanhoLargura>
+                            <tipoAtributo>SIMPLES</tipoAtributo>
+                            <pX>190.0</pX>
+                            <pY>120.0</pY>
+                        </atributos>
+                        <id>19</id>
+                        <nome>Atributo7</nome>
+                        <tamanhoAltura>25</tamanhoAltura>
+                        <tamanhoLargura>100</tamanhoLargura>
+                        <tipoAtributo>COMPOSTO</tipoAtributo>
+                        <pX>190.0</pX>
+                        <pY>120.0</pY>
+                    </atributos>
+                    <atributos uuid="27">
+                        <id>27</id>
+                        <nome>Atributo11</nome>
+                        <tamanhoAltura>25</tamanhoAltura>
+                        <tamanhoLargura>100</tamanhoLargura>
+                        <tipoAtributo>MULTIVALORADO</tipoAtributo>
+                        <pX>190.0</pX>
+                        <pY>120.0</pY>
+                    </atributos>
+                    <atributos uuid="40">
+                        <id>40</id>
+                        <nome>Atributo14</nome>
+                        <tamanhoAltura>25</tamanhoAltura>
+                        <tamanhoLargura>100</tamanhoLargura>
+                        <tipoAtributo>SIMPLES</tipoAtributo>
+                        <pX>240.0</pX>
+                        <pY>170.0</pY>
+                    </atributos>
+                    <id>2</id>
+                    <nome>Entidade1</nome>
+                    <tamanhoAltura>50</tamanhoAltura>
+                    <tamanhoLargura>100</tamanhoLargura>
+                    <tipo>FORTE</tipo>
+                    <pX>215.0</pX>
+                    <pY>177.0</pY>
+                </entidades>
+                <nome>d</nome>
+                <tipoEspecializacao>DISJUNCAO</tipoEspecializacao>
+                <tipoObrigatoriedade>TOTAL</tipoObrigatoriedade>
+            </value>
+        </entry>
+    </mapaGraficoEspecializacao>
+    <mapaGraficoAgregacao/>
+</savedObject>
